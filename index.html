@@ -1,0 +1,33 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Digital Clock</title>
+ <style>
+     body {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         height: 100vh;
+         background-image: url('data:image/jpeg;base64,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');
+         background-size: cover;
+         background-repeat: no-repeat;
+         background-position: center;
+         color: aliceblue;
+         font-size: 70px;
+         font-style: oblique;
+     }
+ 
+     #clock {
+        text-shadow: 0px 50px 10px rgb(250, 247, 247); /* Text shadow */
+    }
+
+ </style>
+ </head>
+ <body>
+ <div id="clock">12:00</div>
+ <script src="app.js"></script>
+ </body>
+ </html>
+ 
